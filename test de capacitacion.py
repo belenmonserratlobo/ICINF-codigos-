@@ -1,6 +1,6 @@
-Tpreguntas=int(input("Ingrese el total de preguntas realizadas: "))
-Cpreguntas=int(input("Ingrese la cantidad de preguntas respondidas correctamente: "))
-porcentaje=Cpreguntas*100/Tpreguntas
+tpreguntas=int(input("Ingrese el total de preguntas realizadas: "))
+cpreguntas=int(input("Ingrese la cantidad de preguntas respondidas correctamente: "))
+porcentaje=cpreguntas*100/Tpreguntas
 if porcentaje>= 95:
     print("Nivel maximo")
 else:
