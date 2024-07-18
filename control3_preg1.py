@@ -3,10 +3,11 @@
 
 def solo_numeros(var):
     try:
-        int(var)
+        float(var)
         return True
     except:
         return False
     
 print(solo_numeros("hola"))
 print(solo_numeros(12))
+print(solo_numeros(1.5))
